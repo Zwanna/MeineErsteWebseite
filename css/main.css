@@ -1,0 +1,88 @@
+body {
+  font-size: 20px;
+}
+
+header {
+  background: #1a0844;
+  height: 140px;
+  width: hv;
+  position: fixed;
+}
+
+.nav-list {
+  background: #1a0844;
+  margin: 0;
+  padding-top: 6%;
+  padding-inline-start: 30%;
+  display: flex;
+  list-style-type: none;
+  height: 60px;
+}
+nav {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.nav-list li {
+  width: 25%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid whitesmoke;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+}
+.nav-list li.last {
+  border-right: 1px solid whitesmoke;
+}
+
+.nav-list li.active {
+  background: #08086d;
+}
+
+.nav-list li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-list li:hover {
+  background: #0b0b8f;
+  color: aqua;
+}
+
+#box1 {
+  height: 600px;
+  left: 0%;
+  right: 0%;
+  top: 15.4%;
+  bottom: 30.62%;
+  background-image: url("Image1.jpeg");
+}
+
+#box1 p {
+  margin-block-start: 0px;
+  color: aliceblue;
+  padding-top: 20%;
+  padding-right: 50%;
+  padding-left: 3%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+p {
+  padding-left: 3%;
+  padding-right: 5%;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  color: #0f0101;
+  font-family: "Fira Sans", sans-serif;
+  font-size: larger;
+  font-weight: 400;
+}
